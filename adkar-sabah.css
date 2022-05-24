@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kufam&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@700&family=Tajawal:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Almarai&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  background-image: url(images/img1.jpg);
+  backdrop-filter: blur(5px);
+  background-attachment: fixed;
+  background-size: cover;
+}
+body.second {
+  background-color: rgb(118, 118, 118);
+}
+header {
+  direction: rtl;
+  background-color: #dad7c1f4;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+}
+.logo {
+  text-decoration: none;
+  color: #555349;
+  text-shadow: 1px 2px 4px #555349;
+  font-size: 1.1em;
+  font-family: "Kufam", sans-serif;
+  font-weight: 900;
+}
+.nav a {
+  text-decoration: none;
+  padding-left: 30px;
+  font-family: "Cairo", sans-serif;
+  font-size: 1.15em;
+  color: #555349;
+  font-weight: 700;
+  border-radius: 30px;
+  padding: 0em 1em;
+}
+.nav a#sabah {
+  color: white;
+  border-radius: 10em;
+  background-color: #494738;
+  padding: 0em 1em;
+  font-weight: 400;
+}
+
+.nav a:hover {
+  color: white;
+  border-radius: 10em;
+  background-color: #494738;
+  padding: 0em 1em;
+  font-weight: 500;
+}
+
+section {
+  background-color: #55534949;
+  text-align: center;
+  margin: 180px 180px 0px 180px;
+  padding: auto;
+  font-size: 30px;
+  border-radius: 20px;
+  display: inline-block;
+  padding: 20px;
+  font-family: "Almarai", sans-serif;
+  line-height: 200%;
+  color: #ffffffd0;
+  font-weight: 500;
+  text-shadow: 1px 1px 5px #0000006e;
+  box-shadow: 1px 1px 10px black;
+}
+section.small {
+  font-size: 27px;
+}
+section.large {
+  font-size: 32px;
+}
+
+img {
+  height: 110px;
+  width: 175px;
+  margin: 20px 0px 5px 0px;
+}
+
+#time {
+  text-align: center;
+  color: #ffefa2;
+  text-shadow: 2px 2px 5px #313131;
+  line-height: 12%;
+  margin-top: -5px;
+  padding-bottom: 40px;
+  padding-top: 25px;
+}
+
+.ayat-al-kursy,
+.el-ikhlas,
+.el-fala9,
+.el-nas,
+.d-sabah,
+.tatmima,
+.sayed-elistighfar,
+.istighfar,
+.ini-oshhidoka,
+.la-yadoro,
+.taw7id,
+.taw7id2,
+.my-fav,
+.salat-r,
+.Ailm,
+.istighfar-1,
+.istighfar-2,
+.ni3ma,
+.radito,
+.al3afew,
+.istighfar-3,
+.istighfar-4,
+.istighfar-5,
+.amsayna-2,
+.fi6ra,
+.Ailma {
+  background-color: #0000003e;
+  margin: 10px 10px;
+  border-radius: 20px;
+  padding: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: block;
+}
+
+.el-ikhlas:hover,
+.el-fala9:hover,
+.el-nas:hover,
+.d-sabah:hover,
+.tatmima:hover,
+.sayed-elistighfar:hover,
+.ini-oshhidoka:hover,
+.la-yadoro:hover,
+.taw7id:hover,
+.taw7id2:hover,
+.my-fav:hover,
+.salat-r:hover,
+.Ailm:hover,
+.istighfar-1:hover,
+.istighfar-2:hover,
+.ni3ma:hover,
+.radito:hover,
+.al3afew:hover,
+.istighfar-1:hover,
+.istighfar-2:hover,
+.amsayna-2:hover,
+.istighfar-3:hover,
+.istighfar-4:hover,
+.istighfar-5:hover,
+.ayat-al-kursy:hover,
+.istighfar:hover,
+.fi6ra:hover,
+.Ailma:hover {
+  background-color: #28272665;
+
+  color: white;
+}
+
+.onwan,
+.ikhlas,
+.nas,
+.fala9 {
+  color: #ffefa2;
+}
+::-webkit-scrollbar {
+  width: 9px;
+}
+::-webkit-scrollbar-track {
+  background: #dad7c1f4;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #767469f4;
+}
+
+#fm,
+#fs,
+#fl {
+  font-size: 25px;
+  background-color: #55534949;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  border-style: none;
+  color: white;
+}
+
+#fm:hover,
+#fs:hover,
+#fl:hover {
+  background-color: white;
+  color: black;
+}

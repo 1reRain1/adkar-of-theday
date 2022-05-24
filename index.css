@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kufam&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  direction: rtl;
+}
+header {
+  direction: rtl;
+  background-color: #dad7c1f4;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+}
+
+.logo {
+  text-decoration: none;
+  color: #555349;
+  text-shadow: 1px 2px 4px #555349;
+  font-size: 1.1em;
+  font-family: "Kufam", sans-serif;
+  font-weight: 900;
+}
+.nav a {
+  text-decoration: none;
+  padding-left: 30px;
+  font-family: "Cairo", sans-serif;
+  font-size: 1.15em;
+  color: #555349;
+  font-weight: 700;
+  border-radius: 30px;
+  padding: 0em 1em;
+}
+
+.nav a:hover {
+  color: white;
+  border-radius: 10em;
+  background-color: #555349;
+  padding: 0em 1em;
+  font-weight: 500;
+}
+
+section {
+  padding: 6.25em 12.5em;
+}
+
+.main {
+  z-index: 1;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(images/img1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.main div {
+  z-index: 999;
+  color: #6a685d;
+  font-size: 24px;
+  font-family: "Cairo", sans-serif;
+}
+.main h1 {
+  z-index: 999;
+  color: #dad7c1f4;
+  text-shadow: 2px 2px 5px #000000;
+  font-size: 55px;
+  font-family: "Kufam", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main::before {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  content: "";
+  position: absolute;
+  width: 65em;
+  height: 35em;
+  background-color: #55534949;
+  right: 26em;
+  top: 29em;
+  transform: translateY(-50%) skew(0, -3deg);
+  border-radius: 59%;
+  animation: waving 8s ease-in-out infinite alternate;
+  overflow: hidden;
+  z-index: 10;
+}
+
+@keyframes waving {
+  from {
+    transform: translateY(-50%) skew(0, -3deg);
+  }
+  to {
+    transform: translateY(-40%) skew(3deg, 0);
+  }
+}

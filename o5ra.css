@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kufam&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@700&family=Tajawal:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Almarai&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  background-image: url(images/img1.jpg);
+  backdrop-filter: blur(5px);
+  background-attachment: fixed;
+  background-size: cover;
+}
+header {
+  direction: rtl;
+  background-color: #dad7c1f4;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+}
+.logo {
+  text-decoration: none;
+  color: #555349;
+  text-shadow: 1px 2px 4px #555349;
+  font-size: 1.1em;
+  font-family: "Kufam", sans-serif;
+  font-weight: 900;
+}
+.nav a {
+  text-decoration: none;
+  padding-left: 30px;
+  font-family: "Cairo", sans-serif;
+  font-size: 1.15em;
+  color: #555349;
+  font-weight: 700;
+  border-radius: 30px;
+  padding: 0em 1em;
+}
+.nav a#o5ra {
+  color: white;
+  border-radius: 10em;
+  background-color: #494738;
+  padding: 0em 1em;
+  font-weight: 400;
+}
+
+.nav a:hover {
+  color: white;
+  border-radius: 10em;
+  background-color: #494738;
+  padding: 0em 1em;
+  font-weight: 500;
+}
+section {
+  background-color: #55534949;
+  text-align: center;
+  margin: 180px 180px;
+  font-size: 30px;
+  border-radius: 20px;
+  display: inline-block;
+  padding: 20px;
+  font-family: "Almarai", sans-serif;
+  line-height: 200%;
+  font-weight: 500;
+  box-shadow: 1px 1px 10px black;
+}
+section.small {
+  font-size: 27px;
+}
+section.large {
+  font-size: 32px;
+}
+section .aonwan {
+  color: rgb(255, 255, 255);
+  margin-top: -15px;
+  padding-bottom: 7px;
+}
+
+.sa3b,
+.hozn,
+.dayn,
+.karb,
+.isti9ad,
+.naum {
+  background-color: #0000003e;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  color: #ffffffd0;
+  text-shadow: 1px 1px 5px #000000d5;
+}
+
+p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+h4 {
+  margin-top: -20px;
+  color: #ffefa2;
+  text-shadow: 1px 1px 5px black;
+}
+img {
+  height: 110px;
+  width: 175px;
+  margin: 20px 0px 5px 0px;
+}
+#fm,
+#fs,
+#fl {
+  font-size: 25px;
+  background-color: #55534949;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  border-style: none;
+  color: white;
+}
+#fm:hover,
+#fs:hover,
+#fl:hover {
+  background-color: white;
+  color: black;
+}
+::-webkit-scrollbar {
+  width: 9px;
+}
+::-webkit-scrollbar-track {
+  background: #dad7c1f4;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #767469f4;
+}
